@@ -1,0 +1,4 @@
+name: NoMoreLag
+main: Magicode\NoMoreLag\NoMoreLag
+Version: 1.0.0
+api: 2.0.0
