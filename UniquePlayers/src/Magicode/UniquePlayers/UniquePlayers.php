@@ -1,6 +1,6 @@
 <?php
 
-namespace Magicode\NoMoreLag;
+namespace Magicode\UniquePlayers;
 
 use pocketmine\plugin\PluginBase;
 
