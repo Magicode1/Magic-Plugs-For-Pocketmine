@@ -15,13 +15,13 @@ class PlayerRewards extends PluginBase implements Listener{
     }
         
         public function playerReward(PlayerJoinEvent $player){
-        
-        $ptime = player->getFirstPlayed()
+            
+        $player = $receiver
+        $ptime = $player->getFirstPlayed();
         $cfg = $this->getConfig();
         if ($ptime >= $cfg->get("minimum-time-to-have-played-for-reward") {
-        
-        
-        }
+        $receiver->getInventory()->addItem(264);
+        }else{}
         
     public function onDisable(){
         $this->getlogger()->info("PlayerRewards Disabling.....");
